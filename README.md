@@ -15,6 +15,29 @@ Key Metrics
 - Churn Rate
 - Average Monthly Spend
 
+## Machine Learning Model
+
+A churn prediction model was built using Python to identify customers at risk of churn.
+
+Steps:
+- Data cleaning using pandas
+- Feature engineering
+- Train-test split
+- Logistic regression model training
+
+Libraries Used:
+- pandas
+- scikit-learn
+- numpy
+
+Output:
+The model predicts the probability of customer churn based on:
+
+• Tenure
+• Monthly spend
+• Support tickets
+• Contract type
+
 Dashboard Insights
 
 1. Customers with monthly contracts have the highest churn rate.
